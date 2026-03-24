@@ -1,0 +1,53 @@
+Question 1
+
+Create a backend server using Express.js and connect it to a MongoDB database.
+
+Ensure the server runs on port 3000 and confirms successful database connection.
+
+Question 2
+
+Assume you are working with a collection named students having the following fields:
+
+name
+email
+course
+marks
+createdAt
+
+Create an API to add a new student.
+
+Do not allow duplicate students with the same email
+Return appropriate success and error responses
+Question 3
+
+Create an API to fetch all students.
+
+Allow filtering students based on course using query parameters
+If no filter is applied, return all students
+Question 4
+
+Create an API to fetch a single student using their ID.
+
+Handle cases where the ID is invalid or not found
+
+Question 5
+
+Create an API to update a student’s marks using their ID.
+
+Only the marks field should be updated
+Handle cases where the student does not exist
+
+Question 6
+
+Create an API to delete a student using their ID.
+
+Return a proper message if the student is not found
+
+Question 7(Bonus)
+Create an API to return student performance insights from the database.
+
+Requirements:
+The API should return:
+Total number of students
+Average marks of all students
+Number of students in each course
